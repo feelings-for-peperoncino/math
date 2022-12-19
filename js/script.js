@@ -7,8 +7,8 @@ let currentIndex = 0;
 // 問題を生成する処理
 for (let i = 0; i < 10; i++) {
   // 1桁と1桁の足し算の問題を生成する
-  const a = Math.floor(Math.random() * 4) + 1;
-  const b = Math.floor(Math.random() * 4) + 1;
+  const a = Math.floor(Math.random() * 2) + 1;
+  const b = Math.floor(Math.random() * 2) + 1;
   const question = `${a} + ${b} =`;
   const answer = a + b;
   questions.push({ question, answer });
